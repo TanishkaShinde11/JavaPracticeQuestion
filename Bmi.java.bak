@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Bmi
+
+{
+	public static void main(String[] args) 
+	{   
+		Scanner sc=new Scanner(System.in);
+        float  heightinch=sc.nextFloat();
+		float weipound=sc.nextFloat();
+		float weikilo=weipound*0.45359237f;
+		float heimter=heightinch*0.0254f;
+		float bmi=weikilo/(heimter*heimter);
+		System.out.println("bmi"+bmi);
+	}
+}

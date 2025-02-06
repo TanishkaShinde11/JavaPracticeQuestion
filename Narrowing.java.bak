@@ -1,0 +1,86 @@
+class Narrowing 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("double Narrowing :"); 
+		double d=8.9;
+		byte b=(byte) 8.9;
+		short s= (short) 8.9;
+		char c=(char) 8.9;
+		int i= (int) 8.9;
+		long l=(long)8.9;
+		float f=(float)8.9;
+		
+		System.out.println("byte :"+b);
+	    System.out.println("short : "+s);
+		 System.out.println("char : "+c); 
+		System.out.println("int :"+i);
+		System.out.println("long :"+l);
+		System.out.println("float :"+f);
+		System.out.println("double  :"+d);
+
+         System.out.println();
+		
+        System.out.println("float Narrowing :"); 
+		 f=9.87f;
+		 b=(byte)9.87f;
+		 s= (short) 9.87f;
+		 c=(char) 9.87f;
+		 i= (int) 9.87f;
+		 l=(long)9.87f;
+		 System.out.println("byte :"+b);
+		System.out.println("short : "+s);
+	     System.out.println("char : "+c); 
+		System.out.println("int :"+i);
+		System.out.println("long :"+l);
+		System.out.println("float :"+f);
+		
+		 
+		 System.out.println();
+		 System.out.println("long Narrowing :");
+		 l=9987l;
+          b=(byte)9987l;
+		 s= (short) 9987l;
+		 c=(char) 9987l;
+		 i= (int) 9987l;
+       		 System.out.println("byte :"+b);
+		System.out.println("short : "+s);
+		System.out.println("char : "+c);
+		System.out.println("int :"+i);
+		System.out.println("long :"+l);
+		
+		
+		
+		System.out.println();
+		 System.out.println("int Narrowing :"); 
+		 i=99;
+		 b=(byte)99;
+		 s= (short) 99;
+		 c=(char) 99;
+		 System.out.println("byte :"+b);
+		System.out.println("short : "+s);
+		System.out.println("char : "+c);
+		System.out.println("int :"+i);
+
+		
+		
+         System.out.println();
+		 System.out.println("char Narrowing :"); 
+		 c='o';
+		  b=(byte) 'o';
+		 s= (short) 'o';
+		 System.out.println("byte :"+b);
+		System.out.println("short : "+s);
+		System.out.println("char : "+c);
+   
+        System.out.println();
+        System.out.println("short Narrowing :");
+        s=9;
+		b=(byte) 9;
+		 System.out.println("byte :"+b);
+		System.out.println("short : "+s);
+
+
+	   
+	}
+}

@@ -1,0 +1,17 @@
+class EvenOd 
+{
+	public static void main(String[] args) 
+	{
+		int num =7264;
+		 int rem=num%10;
+		 int check=(rem%2==0)?(even):(odd);
+		  int evensum=even+rem;
+           int oddsum=odd+rem;
+		   System.out.println(evensum);
+		   System.out.println(oddsum);
+
+		 num=num/10;
+
+
+	}
+}
